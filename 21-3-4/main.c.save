@@ -1,0 +1,90 @@
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//int main()
+//{
+//    printf("Hello world!\n");
+//    return 0;
+//}
+//#include<stdio.h>
+//typedef struct Student
+//{
+//    char id[17];
+//    int kao;
+//    int shi;
+//}st;
+//int main()
+//{
+//    int n,i,chan,j,tmp;
+//    scanf("%d",&n);
+//    st stu[n];
+//    for(i=0;i<n;i++)
+//    {
+//        scanf("%s%d%d",stu[i].id,&stu[i].shi,&stu[i].kao);
+//    }
+//    scanf("%d",&chan);
+//    for(i=0;i<chan;i++)
+//    {
+//        scanf("%d",&tmp);
+//        for(j=0;j<n;j++)
+//        {
+//            if(stu[j].shi==tmp)
+//            {
+//                printf("%s %d\n",stu[j].id,stu[j].kao);
+//                break;
+//            }
+//        }
+//    }
+//    return 0;
+//}
+//#include<stdio.h>
+//#include<ctype.h>
+//int main()
+//{
+//    int arr[260]={0};
+//    char tmp;
+//    int max=0,i;
+//    while((tmp=getchar())!='\n')
+//        if(isalpha(tmp))
+//            arr[tolower(tmp)]++;
+//    for(i=0;i<260;i++)
+//        if(arr[i]>arr[max])
+//            max=i;
+//    printf("%c %d",max,arr[max]);
+//    return 0;
+//}
+//#include<stdio.h>
+//int main()
+//{
+//    int p=0,a=0,T=0,e=0,s=0,t=0;
+//    char tmp;
+//    while((tmp=getchar())!='\n')
+//        if(tmp=='P')
+//            p++;
+//        else if(tmp=='A')
+//            a++;
+//        else if(tmp=='T')
+//            T++;
+//        else if(tmp=='e')
+//            e++;
+//        else if(tmp=='s')
+//            s++;
+//        else if(tmp=='t')
+//            t++;
+//    while(p||a||T||e||s||t)
+//    {
+//        if(p)
+//            printf("P"),p--;
+//        if(a)
+//            printf("A"),a--;
+//        if(T)
+//            printf("T"),T--;
+//        if(e)
+//            printf("e"),e--;
+//        if(s)
+//            printf("s"),s--;
+//        if(t)
+//            printf("t"),t--;
+//    }
+//}
+ 
